@@ -14,7 +14,7 @@ export class LoginComponent implements OnInit {
   }
 
   login(){
-    this.uerService.sendUserRegistration(this.loginData)
+    this.uerService.sendUserLogin(this.loginData)
   }
 
 }
